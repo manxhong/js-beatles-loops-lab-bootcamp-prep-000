@@ -8,4 +8,8 @@ function theBeatlesPlay(musicians, instruments){
     var string = `${musicians[i]} plays ${instruments[i]}`;
     arr.push(string);
   }
+
+  return arr;
 }
+
+console.log(theBeatlesPlay(musicians, instruments));

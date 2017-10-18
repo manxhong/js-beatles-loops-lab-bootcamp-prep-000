@@ -27,12 +27,10 @@ function johnLennonFacts(facts){
   var arr = [];
   while (factLength > 0) {
 
-    arr.push(facts[init]);
+    arr.push(`facts[init]!!!`);
     factLength--;
     init++;
   }
 
   return arr;
 }
-
-console.log(johnLennonFacts(facts));

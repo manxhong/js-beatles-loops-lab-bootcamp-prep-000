@@ -40,6 +40,7 @@ function iLoveTheBeatles(number){
   if (number < 15) {
     do {
       arr.push('I love the Beatles!');
+      number--;
     } while (number < 0);
 
   return arr;

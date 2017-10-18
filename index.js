@@ -31,3 +31,5 @@ function johnLennonFacts(facts){
     init++;
   }
 }
+
+console.log(johnLennonFacts(facts));

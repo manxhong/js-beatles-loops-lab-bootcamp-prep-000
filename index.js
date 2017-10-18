@@ -34,3 +34,12 @@ function johnLennonFacts(facts){
 
   return arr;
 }
+
+function iLoveTheBeatles(number){
+  var arr = [];
+  if (number < 15) {
+    do {
+      arr.push('I love the Beatles!');
+    } while (true);
+  }
+}

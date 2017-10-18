@@ -31,6 +31,8 @@ function johnLennonFacts(facts){
     factLength--;
     init++;
   }
+
+  return arr;
 }
 
 console.log(johnLennonFacts(facts));

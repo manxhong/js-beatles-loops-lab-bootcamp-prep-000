@@ -23,8 +23,11 @@ const facts = [
 
 function johnLennonFacts(facts){
   var factLength = facts.length;
+  var init = 0;
   var arr = [];
   while (factLength > 0) {
-    
+    arr.push(facts[init]);
+    factLength--;
+    init++;
   }
 }

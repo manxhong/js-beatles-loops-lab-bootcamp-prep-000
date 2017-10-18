@@ -26,9 +26,9 @@ function johnLennonFacts(facts){
   var init = 0;
   var arr = [];
   while (factLength > 0) {
-    factLength--;
-    arr.push(facts[init]);
 
+    arr.push(facts[init]);
+    factLength--;
     init++;
   }
 }
